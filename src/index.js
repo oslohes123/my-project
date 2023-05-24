@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import BookingPage from './components/BookingPage';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -17,6 +18,8 @@ const router = createBrowserRouter([
     element: <BookingPage />
   },
 ]);
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
